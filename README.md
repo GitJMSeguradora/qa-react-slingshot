@@ -78,12 +78,15 @@ Why Slingshot?
     
     * **Install [Python 2.7](https://www.python.org/downloads/)**. Some node modules may rely on node-gyp, which requires Python on Windows.
     * **Install C++ Compiler**. Browser-sync requires a C++ compiler on Windows.
-    
+
+      [Visual C++ Build Tools](https://www.google.com/search?q=Visual+C%2B%2B+Build+Tools) is a good option for this requirement.
+      
       [Visual Studio Express](https://www.visualstudio.com/en-US/products/visual-studio-express-vs) comes bundled with a free C++ compiler.
       
-      If you already have Visual Studio installed:
-      Open Visual Studio and go to File -> New -> Project -> Visual C++ -> Install Visual C++ Tools for Windows Desktop.
-      The C++ compiler is used to compile browser-sync (and perhaps other Node modules).
+      > If you already have Visual Studio installed:
+      >
+      > Open Visual Studio and go to File -> New -> Project -> Visual C++ -> Install Visual C++ Tools for Windows Desktop.
+      > The C++ compiler is used to compile browser-sync (and perhaps other Node modules).
 
 ---
 
